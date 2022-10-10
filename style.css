@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto+Condensed:wght@700&family=Teko:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: lightblue;
+}
+
+.h {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.css {
+    margin-top: 30px;
+    font-size: 50px;
+    font-family: Teko;
+}
+
+
+
+.marl {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.mgga {
+    margin-top: 15%;
+    height: 20vh;
+    width: 20vw;
+    border-radius: 10px;
+    border: 5px solid pink;
+    cursor: pointer;
+    background-color: pink;
+    color: #7A5299;
+    font-size: 50px;
+    font-family: Teko;
+    transition: 0.5s ease;
+}
+
+.mgga:hover {
+    background-color: #7A5299;
+    border: 5px solid #7A5299;
+    color: pink;
+}
